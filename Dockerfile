@@ -1,5 +1,3 @@
 FROM java
-COPY HelloWorld.java .
-RUN javac HelloWorld.java
+RUN /bin/bash
 
-CMD ["java", "HelloWorld"]
